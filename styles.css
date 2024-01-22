@@ -1,10 +1,10 @@
 .holder{
-	border:1px solid black;
+	display:grid;
+	grid-template-rows:repeat(2,200px);
+	grid-template-columns:repeat(2,200px);
 }
 .item-1{
 	border:1px solid black;
-	display:grid;
-	grid-template-rows:50% 50%;
 }
 .item-2{
 	border:1px solid black;
